@@ -1,0 +1,181 @@
+{
+  "all": {
+    "n": 5000,
+    "active": 368,
+    "conversion": 7.36,
+    "spend": 5539640,
+    "cac": 15053.37,
+    "median_mrr": 6900.0,
+    "churn": 56,
+    "avg_days": 17.616847826086957
+  },
+  "segments": {
+    "Micro retail & services": {
+      "n": 2709,
+      "active": 110,
+      "conversion": 4.06,
+      "spend": 2200780,
+      "cac": 20007.09,
+      "median_mrr": 2470.0,
+      "churn": 25,
+      "avg_days": 16.645454545454545
+    },
+    "Professional offices": {
+      "n": 1247,
+      "active": 138,
+      "conversion": 11.07,
+      "spend": 1475870,
+      "cac": 10694.71,
+      "median_mrr": 6575.0,
+      "churn": 19,
+      "avg_days": 16.920289855072465
+    },
+    "Small manufacturers": {
+      "n": 289,
+      "active": 37,
+      "conversion": 12.8,
+      "spend": 567000,
+      "cac": 15324.32,
+      "median_mrr": 15910,
+      "churn": 3,
+      "avg_days": 20.513513513513512
+    },
+    "Small multi-site businesses": {
+      "n": 755,
+      "active": 83,
+      "conversion": 10.99,
+      "spend": 1295990,
+      "cac": 15614.34,
+      "median_mrr": 28080,
+      "churn": 9,
+      "avg_days": 18.771084337349397
+    }
+  },
+  "sources": {
+    "Channel partner": {
+      "n": 1010,
+      "active": 81,
+      "conversion": 8.02,
+      "spend": 1688930,
+      "cac": 20850.99,
+      "median_mrr": 5110,
+      "churn": 15,
+      "avg_days": 17.876543209876544
+    },
+    "Field sales": {
+      "n": 1720,
+      "active": 125,
+      "conversion": 7.27,
+      "spend": 3041870,
+      "cac": 24334.96,
+      "median_mrr": 7420,
+      "churn": 12,
+      "avg_days": 17.832
+    },
+    "Inbound call": {
+      "n": 504,
+      "active": 48,
+      "conversion": 9.52,
+      "spend": 245440,
+      "cac": 5113.33,
+      "median_mrr": 6960.0,
+      "churn": 7,
+      "avg_days": 17.645833333333332
+    },
+    "Referral": {
+      "n": 413,
+      "active": 61,
+      "conversion": 14.77,
+      "spend": 250020,
+      "cac": 4098.69,
+      "median_mrr": 5730,
+      "churn": 15,
+      "avg_days": 16.59016393442623
+    },
+    "Website form": {
+      "n": 995,
+      "active": 43,
+      "conversion": 4.32,
+      "spend": 273120,
+      "cac": 6351.63,
+      "median_mrr": 8110,
+      "churn": 5,
+      "avg_days": 17.41860465116279
+    },
+    "WhatsApp campaign": {
+      "n": 358,
+      "active": 10,
+      "conversion": 2.79,
+      "spend": 40260,
+      "cac": 4026.0,
+      "median_mrr": 6915.0,
+      "churn": 2,
+      "avg_days": 19.8
+    }
+  },
+  "drops": {
+    "Installation delayed beyond 21 days": 98,
+    "Not interested on first call": 470,
+    "Decided to wait": 107,
+    "Competitor offered cheaper plan": 207,
+    "Quote took too long to arrive": 179,
+    "Owner had no time for a visit": 531,
+    "Quote too complex to understand": 206,
+    "Locked in with current provider": 325,
+    "Price too high": 414,
+    "Unreachable after 3 attempts": 805,
+    "Document details did not match": 47,
+    "Visit not scheduled by sales": 296,
+    "Wrong or invalid number": 319,
+    "Only wanted a mobile plan": 280,
+    "Found paperwork too long": 79,
+    "Site not feasible for fibre": 41,
+    "Missing GST or Udyam document": 94,
+    "Authorised signatory not available": 53,
+    "First payment failed": 28,
+    "Customer cancelled before install": 53
+  },
+  "languages": {
+    "Malayalam": 83,
+    "Punjabi": 96,
+    "English": 1168,
+    "Hindi": 2137,
+    "Telugu": 207,
+    "Bengali": 111,
+    "Kannada": 253,
+    "Marathi": 505,
+    "Gujarati": 233,
+    "Tamil": 207
+  },
+  "stages": {
+    "KYC complete": 220,
+    "Activated": 368,
+    "Lead": 1594,
+    "Needs assessed": 1113,
+    "Contacted": 1432,
+    "Quote accepted": 273
+  },
+  "calls": 3.010869565217391,
+  "gst": {
+    "Y": {
+      "n": 3534,
+      "active": 338,
+      "conversion": 9.56,
+      "spend": 4287810,
+      "cac": 12685.83,
+      "median_mrr": 7230.0,
+      "churn": 49,
+      "avg_days": 17.440828402366865
+    },
+    "N": {
+      "n": 1466,
+      "active": 30,
+      "conversion": 2.05,
+      "spend": 1251830,
+      "cac": 41727.67,
+      "median_mrr": 3015.0,
+      "churn": 7,
+      "avg_days": 19.6
+    }
+  }
+}

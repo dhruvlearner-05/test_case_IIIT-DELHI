@@ -1,0 +1,4 @@
+# Validation - 2 November 2026
+29 Node regression tests pass. All 3,534 supplied registry GSTINs satisfy the checksum validator.
+Browser checks pass: consent gate, actual OCR of K09, clean consistency checks, payment failure/retry with stable ID, installation delay/activation, reload persistence, masked storage, cancelled K01 rejection, withdrawal/reset, 390px mobile layout without horizontal overflow, and Hindi primary UI.
+No live GenAI call was tested without the team's API key. No external payment, DigiLocker, e-sign or real telecom/installation service was tested. OCR is imperfect and uncertain fields route to review. All 12 supplied applicant sets were processed through OCR, but no judge-only answer key was read and no accuracy rate is claimed. Browser-side checks are unsuitable for production authorization.

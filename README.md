@@ -16,7 +16,7 @@ Open http://127.0.0.1:4173 and keep the terminal running. On Windows, double-cli
 4. Complete the advisor. Verify **Live GenAI explanation** appears on the quote.
 5. If offline/fallback appears, check model access, billing and the local environment, then retry.
 
-The key stays server-side. Only enumerated business attributes and a rule-approved product list reach the model. Documents, names, GSTINs, Udyam numbers and signatory information never enter the prompt. The OpenAI request sets `store:false`; Groq uses Chat Completions without this parameter. Provider retention terms still apply. The shipped demo video uses the offline path because no team API key was available. The live adapter is implemented but has not been credential-tested.
+The key stays server-side. Only enumerated business attributes and a rule-approved product list reach the model. Documents, names, GSTINs, Udyam numbers and signatory information never enter the prompt. The OpenAI request sets `store:false`; Groq uses Chat Completions without this parameter. Provider retention terms still apply. The shipped demo video uses the offline path because no team API key was available. The Groq adapter was verified with a live local advisor request: HTTP 200, mode genai, and a non-empty explanation. This verifies that configuration at the time of testing; reviewers need their own valid key and model access.
 
 ## Judge walkthrough
 1. Select professional office, 5 people, 1 site, tier 2, INR 3,500 budget and uptime priority.
@@ -67,4 +67,12 @@ Replace the example URL. Never upload .env. Grant judges the required access. Th
 ## Credits
 Case data/specimens: supplied fictional YTL Track A pack. Tesseract.js 6.0.1, Tesseract.js-core 6.0.0 and English trained data: respective upstream licenses, listed in THIRD_PARTY_NOTICES.md. No rights to redistribute case materials outside the event are asserted.
 
-Groq adapter reference: https://console.groq.com/docs/api-reference . Provider routing and error handling are tested with mocked responses; a live Groq call still needs your local key.
+Groq adapter reference: https://console.groq.com/docs/api-reference . Provider routing and error handling are covered by mocked tests. A live Groq advisor request also passed. Run `node --env-file=.env scripts/check-ai.mjs` to check your own local configuration without printing the key.
+
+## Submission documents
+- [Seven-slide presentation PDF](test_case_IIIT-DELHI.pdf)
+- [Editable PowerPoint](test_case_IIIT-DELHI.pptx)
+- [Architecture](test_case_IIIT-DELHI_Architecture.pdf)
+- [One-page privacy note](test_case_IIIT-DELHI_Privacy.pdf)
+
+The recorded demo demonstrates the offline path. Supply the MP4 or an accessible video link with the submission.
